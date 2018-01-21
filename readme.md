@@ -28,7 +28,12 @@ zookeeper配置中心说明：
 		#配置数据格式（yml、properties)
 		#zk.config.data-format=yml
 		zk.config.data-format=properties
+		
+与spring-cloud-zookeeper的不同之处
+=========================
+	zk-config所有的配置数据都从zk.config.path指定节点中获取，spring-cloud-zookeeper的一个节点只能存放一个属性；
+	
 
 技术交流：
-=====================
+=========================
 QQ：497446610
