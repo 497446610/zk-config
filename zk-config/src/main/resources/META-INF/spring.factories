@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kuangxf.autoconfig.zk.ZookeeperAutoConfiguration
+# Bootstrap Configuration
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+com.kuangxf.autoconfig.zk.ZookeeperConfigBootstrapConfiguration
+
